@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="9OQB4Km6Q2pscFBr7DYH9MRTqrZOQP2oxhX9IGYyYDI" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- External CSS file used as per user's current request -->
+    <link rel="stylesheet" href="style.css">
+    <title>SIHANS IT SOLUTIONS AND EDITING</title>
+
+    <!-- Review Section Specific CSS (जैसा आपने माँगा था) -->
+    <style>
+        /* Testimonials Section Specific Styling */
+        .testimonials-section {
+            padding: 80px 20px;
+            background-color: #f9f9f9; /* Light grey background for contrast */
+            text-align: center;
+        }
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .testimonial-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            text-align: left;
+            border-left: 5px solid #007bff; /* Primary color highlight */
+            transition: transform 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        .stars {
+            color: gold;
+            margin-bottom: 10px;
+        }
+        .stars i {
+            font-size: 1em;
+        }
+        .review-text {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+        .reviewer-info {
+            padding-top: 10px;
+            border-top: 1px solid #eee;
+        }
+        .reviewer-info h4 {
+            margin: 5px 0 0;
+            color: #333;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+        .reviewer-info p {
+            margin: 0;
+            font-size: 0.85em;
+            color: #007bff;
+        }
+
+        /* General Styling adjustments for better look (Assuming the original CSS is good) */
+        .page-title {
+            font-size: 2.5em;
+            color: #360033;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .page-subtitle {
+            font-size: 1.1em;
+            color: #666;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">SIHANS IT SOLUTIONS AND EDITING</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link active">Services</a></li>
+                <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
+                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1-A3CR4LtHUjCQLEGhwlUDrYXDZhBL1-4" class="nav-link" target="_blank">Editing Portfolio</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <!-- Corrected syntax error here: -->
+                <li class="nav-item"><a href="about.html" class="nav-link active">About Me</a></li> 
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-text animate-text">
+                <h2>Hello, I'm</h2>
+                <h1>[Srihansh kumar]</h1>
+                <p>I am <span class="highlight">[Srihansh kumar C.E.O of KS IT SOLUTIONS AND EDITING (Social Media Marketing Specialist ,software developer and Video Editor)</span> hoon jo behtareen aur upyogi digital experiences banata hai.</p>
+                <a href="#services-on-home" class="btn">View Services</a> </div>
+            <div class="hero-image animate-image">
+                <img src="images/my_photo.jpeg" alt="Meri Photo" onerror="this.onerror=null; this.src='https://placehold.co/300x400/007bff/ffffff?text=Srihansh+Kumar';">
+            </div>
+        </section>
+
+        <!-- Services Section (All Services Displayed) -->
+        <section id="services-on-home" class="services-section">
+            <div class="container page-content">
+                <h2 class="page-title">My Services</h2>
+                <p class="service-intro">Main aapke business aur brand ko badhane ke liye kai tarah ki digital services offer karta hoon.</p>
+                <div class="services-grid">
+
+                    <div class="service-card">
+                        <i class="fas fa-video"></i>
+                        <h3>Video Editing</h3>
+                        <p>Main high-quality video editing services provide karta hoon jo aapki kahani ko behtareen tareeke se pesh kare.</p>
+                        <a href="https://drive.google.com/drive/folders/1-A3CR4LtHUjCQLEGhwlUDrYXDZhBL1-4" class="service-link" target="_blank">Portfolio</a>
+                    </div>
+
+                    <div class="service-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Aapke business ke liye responsive aur fast-loading websites banata hoon, taaki aapki online presence behtar ho.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <i class="fab fa-wordpress"></i>
+                        <h3>Website via WordPress</h3>
+                        <p>WordPress ka upyog karke aakarshak aur asaan-se-manage hone wali websites design aur develop karta hoon.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-share-alt"></i>
+                        <h3>Social Media Marketing</h3>
+                        <p>Social Media Marketing, Google AdSense, aur Facebook AdSense ke zariye aapki brand ko promote karta hoon.</p>
+                    </div>
+                    
+                </div>
+                <div class="text-center" style="text-align: center; margin-top: 30px;">
+                    <a href="services.html" class="btn">View All Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Testimonials Section (15 Fake Reviews) -->
+        <section class="testimonials-section">
+            <div class="container page-content">
+                <h2 class="page-title">Client Reviews (संतुष्ट ग्राहक)</h2>
+                <p class="page-subtitle">Dekhiye ki mere clients mere kaam ke baare mein kya kehte hain.</p>
+                
+                <div class="testimonial-grid">
+                    
+                    <!-- 10 Indian Client Reviews -->
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Video Editing ki quality lajawab hai. Mere YouTube channel ke liye hamesha perfect output dete hain. Time par kaam milta hai."</p>
+                        <div class="reviewer-info">
+                            <h4>Ravi Verma</h4>
+                            <p>Content Creator, Mumbai</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Meri startup website responsive aur user-friendly bani hai. Development ka process bahut smooth tha."</p>
+                        <div class="reviewer-info">
+                            <h4>Anjali Singh</h4>
+                            <p>Startup Founder, Delhi</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Social Media Marketing se hamare business ki online reach kaafi badh gayi. Facebook Ads kaafi asardar rahe."</p>
+                        <div class="reviewer-info">
+                            <h4>Manish Gupta</h4>
+                            <p>Retail Business Owner, Kanpur</p>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"WordPress par meri e-commerce site banwai. Bahut tezi se aur kam budget mein ready ho gayi. Excellent work!"</p>
+                        <div class="reviewer-info">
+                            <h4>Preeti Rao</h4>
+                            <p>E-commerce Manager, Bangalore</p>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Shorts aur Reels ki editing ke liye inki service bejod hai. Mere videos par engagement badha hai."</p>
+                        <div class="reviewer-info">
+                            <h4>Kunal Sharma</h4>
+                            <p>Vlogger, Pune</p>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Google AdSense optimization ki vajah se meri website ki revenue mein 30% ka izafa hua. Digital marketing mein expert hain."</p>
+                        <div class="reviewer-info">
+                            <h4>Vijay Kumar</h4>
+                            <p>Blogger, Hyderabad</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Complex web application ka development bahut professional tareeke se complete kiya. Code quality bahut achhi thi."</p>
+                        <div class="reviewer-info">
+                            <h4>Deepa Menon</h4>
+                            <p>Software Consultant, Chennai</p>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Har baar video editing ki demand ko acche se samajhte hain. Output hamesha client ki expectations se behtar hota hai."</p>
+                        <div class="reviewer-info">
+                            <h4>Arjun Das</h4>
+                            <p>Marketing Agency Head, Kolkata</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Mere coaching center ke liye social media strategy bahut effective rahi. Naye students ka admission badha hai."</p>
+                        <div class="reviewer-info">
+                            <h4>Sanjay Rawat</h4>
+                            <p>Educator, Jaipur</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Website maintainance aur security inki team ne bahut achhi sambhali hai. Hamara server ab bahut stable hai."</p>
+                        <div class="reviewer-info">
+                            <h4>Kavita Desai</h4>
+                            <p>IT Manager, Surat</p>
+                        </div>
+                    </div>
+
+                    <!-- 5 US Client Reviews -->
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"KS IT SOLUTIONS built our React application on time and under budget. The quality of the code is outstanding and highly scalable."</p>
+                        <div class="reviewer-info">
+                            <h4>Michael B. Chen</h4>
+                            <p>Lead Developer, New York, US</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"We use their service for all our corporate training videos. The editing is professional, clean, and perfectly aligned with our brand guide."</p>
+                        <div class="reviewer-info">
+                            <h4>Sarah J. Williams</h4>
+                            <p>Training Coordinator, Texas, US</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Their Facebook Ad strategy drove significant traffic and boosted our conversions by 40%. True specialists in digital marketing."</p>
+                        <div class="reviewer-info">
+                            <h4>David L. Hayes</h4>
+                            <p>Marketing Director, California, US</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Excellent communication and fast delivery on the custom API integration for our main website. Highly technical and professional team."</p>
+                        <div class="reviewer-info">
+                            <h4>Emily R. Cooper</h4>
+                            <p>Tech Lead, Washington, US</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Managed our Google AdSense implementation perfectly, leading to optimal ad placement and higher RPMs. Very satisfied with the results."</p>
+                        <div class="reviewer-info">
+                            <h4>Robert P. Jones</h4>
+                            <p>Publisher, Florida, US</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container page-content">
+                <h2 class="page-title">Get in Touch</h2>
+                <p class="page-subtitle">Main aapke sandesh ka intezar karunga!</p>
+                
+                <div class="contact-links-grid">
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:sva16081999@gmail.com" class="contact-link" target="_blank">sva16081999@gmail.com</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/+91 6388714912" class="contact-link" target="_blank">Send Message</a>
+                    </div>
+
+                    <div class="contact-card">
+                      <i class="fas fa-phone-alt"></i>
+                      <h3>Call Me</h3>
+                      <a href="tel:+91 6388714912" class="contact-link">+91 6388714912</a>
+                    </div>
+                </div>
+                
+                <div class="text-center" style="text-align: center; margin-top: 30px;">
+                    <a href="contact.html" class="btn">View All Contact Options</a>
+                </div>
+
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer class="footer">
+        <div class="social-links">
+            <a href="mailto:sva16081999@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.instagram.com/ksit_solutions" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="tel:+916388714912" target="_blank"><i class="fas fa-phone"></i> Call Me</a>
+            <a href="https://wa.me/+916388714912" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+        <p class="copyright">&copy; 2025 | SIHANS IT SOLUTIONS AND EDITING. All rights reserved.</p>
+    </footer>
+
+    <!-- External JS file used as per user's current request -->
+    <script src="script.js"></script>
+</body>
+</html>
